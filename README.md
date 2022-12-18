@@ -61,6 +61,12 @@ var o = ns;
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`log( [data][,..args] )`][@stdlib/console/log]</span><span class="delimiter">: </span><span class="description">output a message to the debugger console.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -162,6 +168,12 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/console/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/console/main/LICENSE
+
+<!-- <toc-links> -->
+
+[@stdlib/console/log]: https://github.com/stdlib-js/console/tree/main/log
+
+<!-- </toc-links> -->
 
 </section>
 
