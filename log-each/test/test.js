@@ -120,7 +120,7 @@ tape( 'the function prints a formatted message for each element in an array', fu
 	var j;
 
 	logEach = proxyquire( './../lib/main.js', {
-		'./logger.js': logger
+		'./../../log': logger
 	});
 
 	j = 0;
@@ -137,6 +137,7 @@ tape( 'the function prints a formatted message for each element in an array', fu
 	for ( i = 0; i < values.length; i++ ) {
 		logEach( '%s', values[ i ] );
 	}
+	t.strictEqual( j, expected.length, 'returns expected value' );
 	t.end();
 
 	function logger( str ) {
@@ -153,7 +154,7 @@ tape( 'the function prints a formatted message for each pair of array elements (
 	var j;
 
 	logEach = proxyquire( './../lib/main.js', {
-		'./logger.js': logger
+		'./../../log': logger
 	});
 
 	j = 0;
@@ -170,6 +171,7 @@ tape( 'the function prints a formatted message for each pair of array elements (
 	for ( i = 0; i < values.length; i += 2 ) {
 		logEach( '%s, %s', values[ i ], values[ i + 1 ] );
 	}
+	t.strictEqual( j, expected.length, 'returns expected value' );
 	t.end();
 
 	function logger( str ) {
@@ -186,7 +188,7 @@ tape( 'the function repeatedly prints a formatted message (three arrays)', funct
 	var j;
 
 	logEach = proxyquire( './../lib/main.js', {
-		'./logger.js': logger
+		'./../../log': logger
 	});
 
 	j = 0;
@@ -205,6 +207,7 @@ tape( 'the function repeatedly prints a formatted message (three arrays)', funct
 	for ( i = 0; i < values.length; i += 3 ) {
 		logEach( '%s, %s, %s', values[ i ], values[ i + 1 ], values[ i + 2 ]);
 	}
+	t.strictEqual( j, expected.length, 'returns expected value' );
 	t.end();
 
 	function logger( str ) {
@@ -221,7 +224,7 @@ tape( 'the function repeatedly prints a formatted message (four arrays)', functi
 	var j;
 
 	logEach = proxyquire( './../lib/main.js', {
-		'./logger.js': logger
+		'./../../log': logger
 	});
 
 	j = 0;
@@ -242,6 +245,7 @@ tape( 'the function repeatedly prints a formatted message (four arrays)', functi
 	for ( i = 0; i < values.length; i += 4 ) {
 		logEach( '%s, %s, %s, %s', values[ i ], values[ i + 1 ], values[ i + 2 ], values[ i + 3 ]);
 	}
+	t.strictEqual( j, expected.length, 'returns expected value' );
 	t.end();
 
 	function logger( str ) {
@@ -258,7 +262,7 @@ tape( 'the function broadcasts non-array arguments (one array, one scalar)', fun
 	var j;
 
 	logEach = proxyquire( './../lib/main.js', {
-		'./logger.js': logger
+		'./../../log': logger
 	});
 
 	j = 0;
@@ -275,6 +279,7 @@ tape( 'the function broadcasts non-array arguments (one array, one scalar)', fun
 	for ( i = 0; i < values.length; i += 2 ) {
 		logEach( '%s, %s', values[ i ], values[ i + 1 ] );
 	}
+	t.strictEqual( j, expected.length, 'returns expected value' );
 	t.end();
 
 	function logger( str ) {
@@ -291,7 +296,7 @@ tape( 'the function broadcasts non-array arguments (one scalar, one array)', fun
 	var j;
 
 	logEach = proxyquire( './../lib/main.js', {
-		'./logger.js': logger
+		'./../../log': logger
 	});
 
 	j = 0;
@@ -308,6 +313,7 @@ tape( 'the function broadcasts non-array arguments (one scalar, one array)', fun
 	for ( i = 0; i < values.length; i += 2 ) {
 		logEach( '%s, %s', values[ i ], values[ i + 1 ] );
 	}
+	t.strictEqual( j, expected.length, 'returns expected value' );
 	t.end();
 
 	function logger( str ) {
@@ -324,7 +330,7 @@ tape( 'the function broadcasts non-array elements (two arrays, one scalar)', fun
 	var j;
 
 	logEach = proxyquire( './../lib/main.js', {
-		'./logger.js': logger
+		'./../../log': logger
 	});
 
 	j = 0;
@@ -343,6 +349,7 @@ tape( 'the function broadcasts non-array elements (two arrays, one scalar)', fun
 	for ( i = 0; i < values.length; i += 3 ) {
 		logEach( '%s, %s, %s', values[ i ], values[ i + 1 ], values[ i + 2 ] );
 	}
+	t.strictEqual( j, expected.length, 'returns expected value' );
 	t.end();
 
 	function logger( str ) {
@@ -359,7 +366,7 @@ tape( 'the function broadcasts non-array arguments (one scalar, two arrays)', fu
 	var j;
 
 	logEach = proxyquire( './../lib/main.js', {
-		'./logger.js': logger
+		'./../../log': logger
 	});
 
 	j = 0;
@@ -378,6 +385,7 @@ tape( 'the function broadcasts non-array arguments (one scalar, two arrays)', fu
 	for ( i = 0; i < values.length; i += 3 ) {
 		logEach( '%s, %s, %s', values[ i ], values[ i + 1 ], values[ i + 2 ] );
 	}
+	t.strictEqual( j, expected.length, 'returns expected value' );
 	t.end();
 
 	function logger( str ) {
@@ -394,7 +402,7 @@ tape( 'the function prints a formatted message when provided only a scalar argum
 	var j;
 
 	logEach = proxyquire( './../lib/main.js', {
-		'./logger.js': logger
+		'./../../log': logger
 	});
 
 	j = 0;
@@ -413,6 +421,7 @@ tape( 'the function prints a formatted message when provided only a scalar argum
 	for ( i = 0; i < values.length; i++ ) {
 		logEach( '%s', values[ i ] );
 	}
+	t.strictEqual( j, expected.length, 'returns expected value' );
 	t.end();
 
 	function logger( str ) {
@@ -429,7 +438,7 @@ tape( 'the function prints a formatted message when only provided two scalar arg
 	var j;
 
 	logEach = proxyquire( './../lib/main.js', {
-		'./logger.js': logger
+		'./../../log': logger
 	});
 
 	j = 0;
@@ -448,6 +457,7 @@ tape( 'the function prints a formatted message when only provided two scalar arg
 	for ( i = 0; i < values.length; i += 2 ) {
 		logEach( '%s, %s', values[ i ], values[ i + 1 ] );
 	}
+	t.strictEqual( j, expected.length, 'returns expected value' );
 	t.end();
 
 	function logger( str ) {

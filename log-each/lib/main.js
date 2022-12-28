@@ -23,7 +23,7 @@
 var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
 var isCollection = require( '@stdlib/assert/is-collection' );
 var format = require( '@stdlib/string/format' );
-var logger = require( './logger.js' );
+var logger = require( './../../log' );
 
 
 // MAIN //
@@ -66,6 +66,9 @@ function logEach( str ) {
 			args.push( [ v ] );
 			strides.push( 0 );
 		}
+	}
+	if ( len === void 0 ) {
+		len = 1;
 	}
 	for ( ; i < nargs; i++ ) {
 		v = arguments[ i ];
