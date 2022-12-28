@@ -39,11 +39,16 @@
     "@stdlib/utils": "github:stdlib-js/utils#main"
   },
   "devDependencies": {
+    "@stdlib/array": "github:stdlib-js/array",
+    "@stdlib/assert": "github:stdlib-js/assert",
     "@stdlib/bench": "github:stdlib-js/bench",
+    "@stdlib/math": "github:stdlib-js/math",
+    "@stdlib/random": "github:stdlib-js/random",
+    "@stdlib/string": "github:stdlib-js/string",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
-    "tap-min": "2.x.x"
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
   },
   "engines": {
     "node": ">=0.10.0",
