@@ -125,7 +125,7 @@ log( '%O', [ 1, 2, 3, 4 ] );
 
 <section class="links">
 
-[@stdlib/string/format]: https://github.com/stdlib-js/stdlib
+[@stdlib/string/format]: https://github.com/stdlib-js/string-format
 
 </section>
 
