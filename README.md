@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/console@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/console@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { log, logEach } from 'https://cdn.jsdelivr.net/gh/stdlib-js/console@deno/mod.js';
+import { log, logEach } from 'https://cdn.jsdelivr.net/gh/stdlib-js/console@v0.2.1-deno/mod.js';
 ```
 
 #### ns
@@ -85,7 +85,7 @@ var o = ns;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/console@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/console@v0.2.1-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
