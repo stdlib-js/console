@@ -10,6 +10,28 @@
 
 ### Packages
 
+<section class="package" id="console-unreleased">
+
+#### [@stdlib/console](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/console)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`66b8906`](https://github.com/stdlib-js/stdlib/commit/66b8906a2fbbc539627f4b5f0dc6f44a578ae18c) - add `logEachMap` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="console-log-each-map-unreleased">
 
 #### [@stdlib/console/log-each-map](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/console/log-each-map)
@@ -56,6 +78,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`66b8906`](https://github.com/stdlib-js/stdlib/commit/66b8906a2fbbc539627f4b5f0dc6f44a578ae18c) - **feat:** add `logEachMap` to namespace _(by Athan Reines)_
 -   [`6a55c22`](https://github.com/stdlib-js/stdlib/commit/6a55c2206fd69c89ddad9e5c2597209a0f0b9aa4) - **feat:** add `console/log-each-map` [(#5357)](https://github.com/stdlib-js/stdlib/pull/5357) _(by Muhammad Haris, Athan Reines)_
 -   [`6c5c97a`](https://github.com/stdlib-js/stdlib/commit/6c5c97aeeb91faea480f67bb999b4e2c6f705cfa) - **docs:** fix example _(by Athan Reines)_
 -   [`459b0f3`](https://github.com/stdlib-js/stdlib/commit/459b0f3d8ba0d486fe172b50a189d6aa0b1ac714) - **test:** add test and document that arguments are optional _(by Athan Reines)_
