@@ -53,8 +53,6 @@ interface Namespace {
 	* @throws provided collections must have the same length
 	*
 	* @example
-	* var ns.logEach = require( './../../log-each' );
-	*
 	* var x = [ 1, 2, 3 ];
 	* var y = [ 4, 5, 6 ];
 	*
