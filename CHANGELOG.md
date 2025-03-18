@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`109d9bd`](https://github.com/stdlib-js/stdlib/commit/109d9bd9116f45b9224f1ea2de412b325993a410) - update namespace TypeScript declarations [(#6137)](https://github.com/stdlib-js/stdlib/pull/6137)
 -   [`66b8906`](https://github.com/stdlib-js/stdlib/commit/66b8906a2fbbc539627f4b5f0dc6f44a578ae18c) - add `logEachMap` to namespace
 
 </section>
@@ -78,6 +79,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`109d9bd`](https://github.com/stdlib-js/stdlib/commit/109d9bd9116f45b9224f1ea2de412b325993a410) - **feat:** update namespace TypeScript declarations [(#6137)](https://github.com/stdlib-js/stdlib/pull/6137) _(by stdlib-bot)_
 -   [`b6ae0c9`](https://github.com/stdlib-js/stdlib/commit/b6ae0c97e3badc205cd9e6a81ff7c9d1838851c5) - **docs:** update namespace table of contents [(#6139)](https://github.com/stdlib-js/stdlib/pull/6139) _(by stdlib-bot)_
 -   [`f6cac9e`](https://github.com/stdlib-js/stdlib/commit/f6cac9ebf806ab79e2f3fec2b5825e8c71516fba) - **docs:** update namespace TypeScript declarations [(#6106)](https://github.com/stdlib-js/stdlib/pull/6106) _(by stdlib-bot)_
 -   [`66b8906`](https://github.com/stdlib-js/stdlib/commit/66b8906a2fbbc539627f4b5f0dc6f44a578ae18c) - **feat:** add `logEachMap` to namespace _(by Athan Reines)_
