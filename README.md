@@ -76,6 +76,7 @@ var o = ns;
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`logEachMap( str[, ...args], clbk[, thisArg] )`][@stdlib/console/log-each-map]</span><span class="delimiter">: </span><span class="description">insert array element values and the result of a callback function into a format string and print the result.</span>
 -   <span class="signature">[`logEach( str[, ...args] )`][@stdlib/console/log-each]</span><span class="delimiter">: </span><span class="description">insert array element values into a format string and print the result.</span>
 -   <span class="signature">[`log( [data][,...args] )`][@stdlib/console/log]</span><span class="delimiter">: </span><span class="description">output a message to the debugger console.</span>
 
@@ -187,6 +188,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/console/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/console/log-each-map]: https://github.com/stdlib-js/console/tree/main/log-each-map
 
 [@stdlib/console/log-each]: https://github.com/stdlib-js/console/tree/main/log-each
 
