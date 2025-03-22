@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-18)
+## Unreleased (2025-03-22)
 
 <section class="packages">
 
@@ -63,9 +63,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Muhammad Haris
 -   Philipp Burckhardt
 
@@ -79,6 +80,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8f25519`](https://github.com/stdlib-js/stdlib/commit/8f25519f78414d246868c028add1c4a28b41c2fa) - **docs:** add examples for `string` and `float` formatting [(#6277)](https://github.com/stdlib-js/stdlib/pull/6277) _(by Karan Anand, Athan Reines)_
 -   [`109d9bd`](https://github.com/stdlib-js/stdlib/commit/109d9bd9116f45b9224f1ea2de412b325993a410) - **feat:** update namespace TypeScript declarations [(#6137)](https://github.com/stdlib-js/stdlib/pull/6137) _(by stdlib-bot)_
 -   [`b6ae0c9`](https://github.com/stdlib-js/stdlib/commit/b6ae0c97e3badc205cd9e6a81ff7c9d1838851c5) - **docs:** update namespace table of contents [(#6139)](https://github.com/stdlib-js/stdlib/pull/6139) _(by stdlib-bot)_
 -   [`f6cac9e`](https://github.com/stdlib-js/stdlib/commit/f6cac9ebf806ab79e2f3fec2b5825e8c71516fba) - **docs:** update namespace TypeScript declarations [(#6106)](https://github.com/stdlib-js/stdlib/pull/6106) _(by stdlib-bot)_
