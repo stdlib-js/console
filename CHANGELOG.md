@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-24)
+## Unreleased (2025-04-19)
 
 <section class="packages">
 
@@ -34,6 +34,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="console-log-each-unreleased">
+
+#### [@stdlib/console/log-each](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/console/log-each)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`5d5742b`](https://github.com/stdlib-js/stdlib/commit/5d5742b1d6b22eb0e9d597242035be42833c004c) - update `format-tokenize` to correctly handle escaped percent signs [(#6695)](https://github.com/stdlib-js/stdlib/pull/6695)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="console-log-each-map-unreleased">
 
 #### [@stdlib/console/log-each-map](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/console/log-each-map)
@@ -49,6 +71,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`5d5742b`](https://github.com/stdlib-js/stdlib/commit/5d5742b1d6b22eb0e9d597242035be42833c004c) - update `format-tokenize` to correctly handle escaped percent signs [(#6695)](https://github.com/stdlib-js/stdlib/pull/6695)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -81,6 +113,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`5d5742b`](https://github.com/stdlib-js/stdlib/commit/5d5742b1d6b22eb0e9d597242035be42833c004c) - **fix:** update `format-tokenize` to correctly handle escaped percent signs [(#6695)](https://github.com/stdlib-js/stdlib/pull/6695) _(by Karan Anand)_
 -   [`d8f2acf`](https://github.com/stdlib-js/stdlib/commit/d8f2acf4d31d3da271e7d2074ffb40a6317c4a23) - **feat:** update namespace TypeScript declarations [(#6337)](https://github.com/stdlib-js/stdlib/pull/6337) _(by stdlib-bot)_
 -   [`cc611d0`](https://github.com/stdlib-js/stdlib/commit/cc611d0cebdbe7cb96e9ac96d83b692ab34e9e3b) - **docs:** add examples for `string` and `float` formatting [(#6325)](https://github.com/stdlib-js/stdlib/pull/6325) _(by Karan Anand)_
 -   [`8f25519`](https://github.com/stdlib-js/stdlib/commit/8f25519f78414d246868c028add1c4a28b41c2fa) - **docs:** add examples for `string` and `float` formatting [(#6277)](https://github.com/stdlib-js/stdlib/pull/6277) _(by Karan Anand, Athan Reines)_
