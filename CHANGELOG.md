@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-03)
+## Unreleased (2026-04-20)
 
 <section class="features">
 
@@ -47,6 +47,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`c9b5df1`](https://github.com/stdlib-js/stdlib/commit/c9b5df11a70309b18348e945eac20fec6380b82a) - **bench:** refactor to use string interpolation in `console` [(#11619)](https://github.com/stdlib-js/stdlib/pull/11619) _(by Karan Anand)_
 -   [`605703a`](https://github.com/stdlib-js/stdlib/commit/605703a1a2c180ef8ad7bb155ed82a05322e92c6) - **chore:** fix JavaScript lint errors [(#9016)](https://github.com/stdlib-js/stdlib/pull/9016) _(by Manit Roy, Athan Reines)_
 -   [`7483bef`](https://github.com/stdlib-js/stdlib/commit/7483bef13b1d3241347266d25a02957269419825) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`5d5742b`](https://github.com/stdlib-js/stdlib/commit/5d5742b1d6b22eb0e9d597242035be42833c004c) - **fix:** update `format-tokenize` to correctly handle escaped percent signs [(#6695)](https://github.com/stdlib-js/stdlib/pull/6695) _(by Karan Anand)_
